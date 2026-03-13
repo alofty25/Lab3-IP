@@ -1,0 +1,104 @@
+.Header {
+  background-color: #111111;
+text-align: center;
+color : #DDDDDD;
+padding: 15px;
+}
+a{
+color : gray;
+text-decoration: none;
+
+}
+a:hover{
+color: white;
+}
+.social{
+display: flex;
+justify-content: center;
+gap: 30px
+}
+.About{
+  background-color : #FCFCFC;
+  text-align: center;
+  padding: 15px;
+  color: #111111
+}
+.Projects {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+  padding: 40px 20px;
+  background-color: #FCFCFC;
+  min-height: 100vh;
+}
+
+.Project {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 280px;
+  min-height: 280px;
+  padding: 20px;
+  background-color: #FFFFFF;
+  border-radius: 15px;
+  text-align: center;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.Project:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.15);
+}
+
+.Project h2 {
+  margin-bottom: 15px;
+  color: #2e0943;
+  font-size: 1.4rem;
+}
+
+.Project p {
+  color: #555;
+  font-size: 0.95rem;
+  line-height: 1.5;
+}
+
+
+
+.Contact{
+  background-color : #FCFCFC;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  padding: 15px;
+  spacing: 50px;
+  gap:10px;
+}
+.box{
+  height: 25px;
+  width: 400px;
+}
+.area{
+  color:#DDDDDD;
+  height: 200px;
+  width: 400px
+}
+.Submit{
+background-color: #010101;
+color: #FCFCFC;
+fill: #010101;
+
+  height: 50px;
+  width: 400px;
+box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1)
+}
+.Submit:hover{
+background-color: #252525;
+  cursor: pointer;
+
+}
