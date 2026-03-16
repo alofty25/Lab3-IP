@@ -1,0 +1,76 @@
+.main-frame {
+    background-color: #1a1a1a;
+    height: 700px;
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    padding-top: 20px;
+    border-radius: 30px;
+}
+
+.title {
+    color: #ffffff;
+    text-align: center;
+    font-family: "sans-serif";
+    font-size: 1.2rem;
+    margin-bottom: 15px;
+    letter-spacing: 1px;
+}
+
+.screen {
+    background-color: #000000;
+    color: #00ff88;
+    width: 360px;
+    border-radius: 15px;
+    height: 125px;
+    border: 1px solid #333;
+    box-shadow: inset 0 0 10px rgba(0,0,0,0.5);
+    padding: 10px;
+}
+
+.board {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    padding: 20px;
+    gap: 15px;
+}
+
+.board button {
+    border-radius: 50%;
+    height: 65px;
+    width: 65px;
+    background-color: #333333;
+    border: none;
+    color: white;
+    font-size: 1.55rem;
+    cursor: pointer;
+    transition: background 0.2s;
+}
+
+.board button:hover {
+    background-color: #444444;
+}
+
+/* Make action buttons (like = or +) stand out */
+.operator {
+    background-color: #f39c12 !important;
+    color: white;
+}
+.equal{
+    background-color: #12bff3 !important;
+}
+
+.operator:hover{
+    background-color: #c39546 !important;
+}
+.equal:hover{
+    background-color: #02546a !important;
+}
+
+.zero {
+    grid-column: span 2;
+    width: 100% !important;
+    border-radius: 35px !important;
+}
